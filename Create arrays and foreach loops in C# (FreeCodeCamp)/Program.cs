@@ -53,5 +53,40 @@ Console.WriteLine("Andrew:\t\t" + andrewScore + "\tB+");
 Console.WriteLine("Emma:\t\t" + emmaScore + "\tB");
 Console.WriteLine("Logan:\t\t" + loganScore + "\tA-");
 
+// Student names
+string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+
+foreach (string item in studentNames)
+{
+    Console.WriteLine($"{item}");
+    // int sophiaSum = 0;
+}
+
+Console.WriteLine("Palindorom Word");
+
+Console.WriteLine("Enter a word");
+
+string input = Console.ReadLine();
+string reverse = new string(input.Reverse().ToArray());
+
+if (reverse == input)
+{
+    Console.WriteLine("Its palindorom");
+}
+else
+{
+    Console.WriteLine("Its not palindorom");
+
+}
+
+//Console.WriteLine("Loop");
+
+//for (int i = 1; i < 10001; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+
+
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
